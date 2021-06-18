@@ -1,0 +1,59 @@
+
+
+
+#Container {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    height: 60px;
+    width:120%;
+    padding: 2px;
+    position: relative;
+    right: 24px;
+    border-style:solid;
+    border-color: #f1f1ff;
+}
+#Container img{
+    position: relative;
+    width:100px !important;
+    height:90px !important;
+    top:1px !important;
+    right: -20px;
+    
+  }
+
+#Container form{
+    padding-left: 16px;
+    width: 100%;
+    position:absolute;
+    top:10px;
+    right:-140px
+
+}
+ #Container form input{
+    right: 10%;
+    width: 1000px;
+    height:38px;
+    top: 40%;
+    bottom: 0%;
+    border: 1px solid #E1DFE0;  
+    box-sizing: border-box;
+    box-shadow: -2px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 4px 4px 0px
+ }
+ #Container form svg{
+ color:#ffff !important;
+ background: #8C56C2;
+ width:30px;
+ height:35px;
+ position: absolute;
+ top:2px;
+  box-shadow: -2px 0px 4px rgba(0, 0, 0, 0.25);
+ border-radius: 0px 4px 4px 0px
+ 
+}
+#Container form svg:hover{
+box-shadow: 0 5px 35px 0px #0000001a;
+background-color: #AD86D3;
+}
+

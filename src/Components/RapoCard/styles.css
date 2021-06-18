@@ -1,0 +1,50 @@
+
+
+ #Container{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+ }
+
+
+     #Container .header {
+        display: flex;
+        align-items: center;
+    }
+
+   #Container a {
+        margin-left: 8px;
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--link);
+
+        text-decoration: none;
+
+      
+    }
+
+     #Container p {
+        margin: 8px 0 16px;
+        font-size: 12px;
+        color: var(--gray);
+        letter-spacing: 0.1px;
+    }
+
+ .Botside ul {
+        display: flex;
+        align-items: center;
+ }
+.Botside li {
+            display: flex;
+            align-items: center;
+
+            margin-right: 16px;
+}
+.Botside span {
+                margin-left: 5px;
+                font-size: 12px;
+                color: var(--gray);
+            }
